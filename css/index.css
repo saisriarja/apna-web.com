@@ -1,0 +1,174 @@
+body {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ptb {
+    padding-top   : 70px;
+    padding-bottom: 70px;
+}
+
+.navbar-brand img {
+    max-height: 25px;
+}
+
+.icofont-navigation-menu:before {
+    content: "\efa2";
+}
+
+.navbar-nav a {
+    font-weight: 600;
+}
+
+.navbar-nav li:hover {
+    color: #49b5e7;
+}
+
+.banner-section {
+    background-color: #f9f9f9;
+    font-family     : 'Dosis', sans-serif;
+    font-weight     : 700;
+}
+
+.banner-button button {
+    background    : #49b5e7;
+    border-radius : 3px;
+    letter-spacing: 1px;
+    font-weight   : 500;
+}
+
+.banner-heading h2 {
+    font-size     : 42px;
+    font-weight   : 700;
+    line-height   : 56px;
+    color         : #0f394c;
+    text-transform: uppercase;
+}
+
+.banner-h3 h3 {
+    color    : #1c698c;
+    font-size: 20px;
+}
+
+.about-section,
+.what-we-achive {
+    font-family: 'Dosis', sans-serif;
+}
+
+.about-left {
+    background: url(../images/about.jpg);
+}
+
+.about-right-heading h2 {
+    color      : #0f394c;
+    font-family: 'Dosis', sans-serif;
+    font-size  : 30px;
+    font-weight: 700;
+}
+
+.about-right p {
+    font-size: 18px;
+}
+
+.about-right i {
+    color    : #49b5e7;
+    font-size: 32px;
+}
+
+.about-right i:hover {
+    color: white;
+}
+
+.bdr {
+    width        : 64px;
+    height       : 64px;
+    border       : 2px solid #d0ecf9;
+    border-radius: 50px;
+}
+
+.bdr:hover {
+    background-color: #49b5e7;
+}
+
+.abt-hed {
+    color: #343a40;
+}
+
+.abt-hed p {
+    font-size  : 14px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.for-circle {
+    width           : 100px;
+    height          : 100px;
+    border          : 2px solid #d0ecf9;
+    border-radius   : 50px;
+    background-color: #49b5e7;
+}
+
+.what-we-achive span {
+    font-size  : 44px;
+    font-weight: 700;
+    display    : block;
+    color      : #49b5e7;
+    font-family: "Dosis", sans-serif;
+}
+
+.what-we-achive {
+    background     : url(../images/counts-bg.jpg) center center no-repeat;
+    background-size: cover;
+    position       : relative;
+}
+
+.what-we-achive::before {
+    content   : "";
+    position  : absolute;
+    background: rgba(255, 255, 255, 0.8);
+    left      : 0;
+    right     : 0;
+    top       : 0;
+    bottom    : 0;
+}
+
+.what-we-achive h2 {
+    color: #0f394c;
+}
+
+.clients .clients-wrap {
+    border-top : 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.clients .client-logo {
+    padding        : 30px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border-right   : 1px solid #eee;
+    border-bottom  : 1px solid #eee;
+    overflow       : hidden;
+    background     : #fff;
+    height         : 120px;
+}
+
+.clients .client-logo img {
+    max-width : 150px;
+    filter    : grayscale(100%);
+    transition: 0.3s;
+}
+
+.clients .client-logo:hover img {
+    max-width: 180px;
+    filter   : none;
+}
+
+.section-bg {
+    background-color: #f4fbfe;
+}
