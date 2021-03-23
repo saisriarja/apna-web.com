@@ -172,3 +172,45 @@ body {
 .section-bg {
     background-color: #f4fbfe;
 }
+
+.services .icon-box {
+    padding      : 30px;
+    position     : relative;
+    overflow     : hidden;
+    border-radius: 10px;
+    margin       : 0 10px 40px 10px;
+    background   : #fff;
+    box-shadow   : 0 10px 29px 0 rgb(68 88 144 / 10%);
+}
+
+.services .icon {
+    position: absolute;
+    left    : -20px;
+    top     : calc(50% - 30px);
+}
+
+.services .title {
+    margin-left  : 40px;
+    font-weight  : 700;
+    margin-bottom: 15px;
+    font-size    : 18px;
+}
+
+.services .description {
+    font-size    : 14px;
+    margin-left  : 40px;
+    line-height  : 24px;
+    margin-bottom: 0;
+}
+.icon-box .title a{
+    font-size: 15px;
+    color: #111;
+}
+.icon-box:hover a{
+    color: #49b5e7;
+    text-decoration: none;
+}
+..services .icon i {
+    font-size: 64px;
+    line-height: 1;
+} 
