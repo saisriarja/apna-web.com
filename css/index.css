@@ -56,7 +56,10 @@ body {
 }
 
 .about-section,
-.what-we-achive {
+.what-we-achive,
+.clients,
+.services,
+.portfolio-section {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -169,7 +172,7 @@ body {
     filter   : none;
 }
 
-.section-bg {
+.services {
     background-color: #f4fbfe;
 }
 
@@ -202,15 +205,94 @@ body {
     line-height  : 24px;
     margin-bottom: 0;
 }
-.icon-box .title a{
+
+.icon-box .title a {
     font-size: 15px;
-    color: #111;
+    color    : #111;
 }
-.icon-box:hover a{
-    color: #49b5e7;
+
+.icon-box:hover a {
+    color          : #49b5e7;
     text-decoration: none;
 }
+
 .services .icon i {
-    font-size: 64px;
+    font-size  : 64px;
     line-height: 1;
-} 
+}
+
+.services .description {
+    min-height: 150px;
+}
+
+.portfolio-section p {
+    font-family: "Open Sans", sans-serif;
+    color      : #444444;
+    font-size  : 17px;
+}
+
+.portfolio-container {
+    position: relative;
+    height  : 876px;
+}
+
+.portfolio-section .first-img {
+    position: absolute;
+    left    : 0px;
+    top     : 0px;
+}
+
+.portfolio-section .second-img {
+    position: absolute;
+    left    : 380px;
+    top     : 0px;
+}
+
+.portfolio-section .thord-img {
+    position: absolute;
+    left    : 760px;
+    top     : 0px;
+}
+
+.portfolio-section .fourth-img {
+    position: absolute;
+    left    : 0px;
+    top     : 292px;
+}
+
+.portfolio-section .fifth-img {
+    position: absolute;
+    left    : 380px;
+    top     : 292px;
+}
+
+.portfolio-section .six-img {
+    position: absolute;
+    left    : 760px;
+    top     : 292px;
+}
+.portfolio-section .seventh-img {
+    position: absolute;
+    left    : 0px;
+    top     : 584px;
+}
+
+.portfolio-section .eight-img {
+    position: absolute;
+    left    : 380px;
+    top     : 584px;
+}
+
+.portfolio-section .nine-img {
+    position: absolute;
+    left    : 760px;
+    top     : 584px;
+}
+.portfolio-wrap {
+    position  : relative;
+    overflow  : hidden;
+    z-index   : 1;
+    background: rgba(255, 255, 255, 0.6);
+    max-height: 262px;
+    overflow  : hidden;
+}
