@@ -55,11 +55,8 @@ body {
     font-size: 20px;
 }
 
-.about-section,
-.what-we-achive,
-.clients,
-.services,
-.portfolio-section {
+section,
+footer {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -404,6 +401,135 @@ body {
     background: rgba(11, 41, 55, 0.9);
 }
 
+.section-title {
+    text-align    : center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size     : 32px;
+    font-weight   : bold;
+    text-transform: uppercase;
+    margin-bottom : 20px;
+    padding-bottom: 0;
+    color         : #0f394c;
+}
+
+.contact p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact .address p {
+    color: #2079a1;
+}
+
+.contact .info i {
+    font-size      : 20px;
+    color          : #49b5e7;
+    float          : left;
+    width          : 44px;
+    height         : 44px;
+    background     : #ebf7fc;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border-radius  : 50px;
+    transition     : all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    font-size    : 22px;
+    font-weight  : 600;
+    margin-bottom: 5px;
+    color        : #0f394c;
+}
+
+footer {
+    background: #f0f9fd;
+}
+
+footer .just-bg {
+    padding: 50px 0;
+}
+
+footer .footer-top {
+    padding   : 60px 0 30px 0;
+    background: #fff;
+}
+
+footer .footer-top .footer-contact p {
+    font-size    : 14px;
+    line-height  : 24px;
+    margin-bottom: 0;
+    color        : #777777;
+}
+
+footer .footer-top h4 {
+    font-size     : 16px;
+    font-weight   : bold;
+    color         : #0f394c;
+    position      : relative;
+    padding-bottom: 12px;
+}
+
+footer .footer-top .footer-links ul {
+    list-style: none;
+}
+
+footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color        : #49b5e7;
+    font-size    : 18px;
+    line-height  : 1;
+}
+
+footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color          : #49b5e7;
+
+}
+
+footer .footer-top .footer-links ul a {
+    color      : #777777;
+    transition : 0.3s;
+    display    : inline-block;
+    line-height: 1;
+    font-size  : 14px;
+}
+
+footer .footer-top .footer-links ul li {
+    padding    : 10px 0;
+    display    : flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer .footer-top .footer-links ul .iconify {
+    padding-right: 2px;
+    color        : #49b5e7;
+    font-size    : 18px;
+    line-height  : 1;
+}
+
+footer .footer-top .social-links a {
+    font-size    : 18px;
+    display      : inline-block;
+    background   : #49b5e7;
+    color        : #fff;
+    line-height  : 1;
+    padding      : 8px 0;
+    margin-right : 4px;
+    border-radius: 4px;
+    text-align   : center;
+    width        : 36px;
+    height       : 36px;
+    transition   : 0.3s;
+}
+.footer-links p{
+    color: #484848;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
 @media (min-width: 1024px) {
     .testimonials {
         background-attachment: fixed;
